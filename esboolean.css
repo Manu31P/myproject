@@ -1,0 +1,111 @@
+body {
+    background-image: url("/Users/manuel/Desktop/Personale/CODE/BOOLEAN/Img/background.jpg");
+    background-size: cover;
+}
+
+#container {
+    border: 1px solid #000000; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 96%;
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+    box-sizing: border-box; 
+    border-radius: 15px;
+}
+
+#logo img {
+    width: 160px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#titolo {
+    font-family: 'Lucida Sans';
+    margin-left: 250px;
+    font-size: 110%;
+	color: #85ff13;
+}
+
+ul#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    white-space: nowrap; 
+}
+
+ul#menu li {
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid #000000; 
+}
+
+ul#menu li a {
+    color: #000000;
+    display: block;
+    line-height: 10px; 
+    text-decoration: none;
+    padding: 3px; 
+    text-align: center;
+}
+
+ul#menu li a {
+    color: #000000;
+    display: inline-block; 
+    line-height: 15px; 
+    text-decoration: none;
+    padding: 3px; 
+    border: 1px solid #000000; 
+    background-color: white;
+    text-align: center;
+}
+
+ul#menu li.active, ul#menu li:hover {
+    border-bottom: 2px solid #85ff13;
+}
+
+#scelta {
+    font-size: 24px; 
+    color: #ffffff; 
+}
+
+#scelta label {
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+#scelta input[type="checkbox"]:checked + label {
+    font-weight: bold; 
+    color: #ffffff; 
+}
+
+.descrizione {
+    font-size: 18px; 
+    color: #ffffff;
+    margin-top: 5px; 
+}
+
+.box-arancione {
+    width: 30%; 
+    height: 25px; 
+    background-color: orange; 
+    border-radius: 10px;
+}
+
+.box-rosso {
+    width: 10%;
+    height: 25px;
+    background-color: rgb(216, 58, 58);
+    border-radius: 10px; 
+}
+
+.box-verde {
+    width: 60%; 
+    height: 25px; 
+    background-color: rgb(90, 211, 35); 
+    border-radius: 10px; 
+}
